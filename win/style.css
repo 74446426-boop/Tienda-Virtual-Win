@@ -222,3 +222,8 @@ nav ul li a {
     margin-top: 15px;
     font-size: 14px;
 }
+.cobertura, .promociones {
+    padding: 60px 10%;
+    background-color: #050505;
+    text-align: center;
+}
