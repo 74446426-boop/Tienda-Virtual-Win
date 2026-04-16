@@ -238,3 +238,20 @@ nav ul li a {
     border-radius: 50%;
     text-decoration: none;
 }
+.beneficios {
+    padding: 60px 10%;
+    background: linear-gradient(90deg, #ff007a, #ff5000);
+    text-align: center;
+    color: white;
+}
+
+.contenedor-beneficios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.beneficio {
+    width: 200px;
+}
