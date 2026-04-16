@@ -44,21 +44,20 @@ nav ul li a {
 }
 
 .btn-venta {
-    background-color: #ff5000;
+    background: linear-gradient(45deg, #ff5000, #ff7a00);
     color: white;
     border: none;
-    padding: 10px 25px;
-    border-radius: 5px;
+    padding: 12px 28px;
+    border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
 }
 
 .btn-venta:hover {
-    background-color: #ff7033;
-    box-shadow: 0 0 15px #ff5000;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 80, 0, 0.6);
 }
-
 .hero {
     height: 500px;
     display: flex;
